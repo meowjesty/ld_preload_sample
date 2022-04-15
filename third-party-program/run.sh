@@ -1,5 +1,6 @@
 #!/usr/bin/bash
 
+cd "./third-party-program"
 mkdir build
 gcc "program.c" -Wall -g -o "./build/third-party-program"
 
